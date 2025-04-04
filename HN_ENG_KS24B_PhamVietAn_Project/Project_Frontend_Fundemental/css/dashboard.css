@@ -1,0 +1,94 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    padding: 9px 48px;
+    background-color: #212529;
+    color: white;
+}
+
+.navbar h4 {
+    font-size: 24px;
+    font-weight:bold;
+    margin-bottom: 0;
+}
+
+.navbar input{
+    padding: 7px 13px;
+    border-radius: 6px;
+    width: 300px;
+}
+
+.navbar div a {
+    color: white;
+    text-decoration: none;
+}
+
+.log-out {
+    margin-left: 52px;
+}
+
+.randomPlay {
+    background-color: #4A3DB5;
+    color: white;
+}
+
+.content {
+    width: 85%;
+}
+
+.arrange button{
+    background-color:transparent;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+
+.split-pages button{
+    padding: 8px 16px;
+    border: 1px solid #dee2e6;
+    background-color: white;
+    margin: 25px 0px;
+}
+
+.split-pages .back-page {
+    border-radius: 4px 0px 0px 4px;
+    background-color: #e9ecef;
+    color: #dee2e6  ;
+}
+
+.next-page {
+    border-radius: 0px 4px 4px 0px;
+}
+
+.split-pages .this-page {
+    border: 1px solid #0d6efd;
+    background-color: #0d6efd;
+    color: white;
+}
+
+.footer {
+    color: white;
+    background-color: #333333;
+}
+
+.task {
+    padding: 9px;
+    border-radius: 6px;
+    background-color: white;
+    width: 49%;
+    position: relative;
+}
+
+.task img {
+    width: 120px;
+    border-radius: 6px;
+}
+
+.btn-play{
+    position: absolute;
+    right: 9px;
+    bottom: 9px;
+}

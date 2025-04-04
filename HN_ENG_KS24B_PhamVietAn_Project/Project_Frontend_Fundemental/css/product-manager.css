@@ -1,0 +1,131 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    padding: 9px 48px;
+    background-color: #212529;
+    color: white;
+}
+
+.navbar h4 {
+    font-size: 24px;
+    font-weight:bold;
+    margin-bottom: 0;
+}
+
+
+.navbar div a {
+    color: white;
+    text-decoration: none;
+    margin-left: 52px;
+}
+
+.content {
+    width: 85%;
+}
+
+.add-search-container {
+    position:relative;
+    left: -4px;
+}
+
+.split-pages button{
+    padding: 8px 16px;
+    border: 1px solid #dee2e6;
+    background-color: white;
+    margin: 25px 0px;
+}
+
+.split-pages .back-page {
+    border-radius: 4px 0px 0px 4px;
+    background-color: #e9ecef;
+    color: #dee2e6  ;
+}
+
+.next-page {
+    border-radius: 0px 4px 4px 0px;
+}
+
+.split-pages .this-page {
+    border: 1px solid #0d6efd;
+    background-color: #0d6efd;
+    color: white;
+}
+
+.footer {
+    color: white;
+    background-color: #333333;
+}
+
+.content table {
+    background-color: white;
+}
+
+.content table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.content th{
+    padding: 8px 11px;
+    font-weight: 800;
+}
+
+.content td{
+    padding: 4px 11px;
+}
+
+.content table thead{
+    background-color: #212529;
+    color: white;
+}
+
+.content table, td{
+    border: 2px solid #DEE2E6;
+}
+
+.content table , th{
+    border: 2px solid #373B3E;
+}
+
+.col_1 {
+    width: 5%;
+    text-align: center;
+}
+
+.col_2 {
+    width: 25%;
+}
+
+.col_3 {
+    width: 17%;
+}
+
+.col_4 {
+    width: 21%;
+}
+
+.col_5 {
+    width: 13%;
+}
+
+.col_6 {
+    width: 19%;
+    text-align: center;
+}
+
+.select {
+    height: 38px;
+    border: 1px solid #DEE2E6;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+
+.formInput{
+    width: 57%;
+    height: 38px;
+    border: 1px solid #DEE2E6;
+    border-radius: 6px;
+    padding: 6px 12px;
+}

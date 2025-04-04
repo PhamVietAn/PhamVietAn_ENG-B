@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+}
+
+.headerText {
+    width: 494px;
+}
+
+.headerText h1{
+    font-size: 52px;
+    color: #090914;
+    font-weight: 600;
+    margin: 0 0 18px;
+}
+
+.headerText p{
+    font-size: 18px;
+    color: #52525B;
+    margin: 0 0 22px;
+}
+
+.container {
+    padding: 25px 30px;
+    width: 533px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.container input{
+    padding: 18px;
+    text-align: center;
+
+}
+
+.container button{
+    margin-top: 27px;
+
+}
