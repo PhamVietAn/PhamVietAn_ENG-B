@@ -15,36 +15,16 @@ body {
     margin-bottom: 0;
 }
 
-.navbar input{
-    padding: 7px 13px;
-    border-radius: 6px;
-    width: 300px;
-}
 
 .navbar div a {
     color: white;
     text-decoration: none;
-}
-
-.log-out {
     margin-left: 52px;
-}
-
-.randomPlay {
-    background-color: #4A3DB5;
-    color: white;
 }
 
 .content {
     width: 85%;
 }
-
-.arrange button{
-    background-color:transparent;
-    padding: 5px;
-    border-radius: 6px;
-}
-
 
 .split-pages button{
     padding: 8px 16px;
@@ -78,25 +58,72 @@ body {
     background-color: #333333;
 }
 
-.task {
-    padding: 9px;
-    border-radius: 6px;
+.content table {
     background-color: white;
-    width: 49%;
-    position: relative;
 }
 
-.task img {
-    width: 120px;
+.content table th, td{
+    padding: 8px;
+}
+
+.col_1 {
+    width: 10%;
+}
+
+.col_2 {
+    width: 67%;
+}
+
+table thead{
+    background-color: #212529;
+    color: white;
+}
+
+td{
+    border: 2px solid #DEE2E6;
+    border: 0px 8px;
+    
+}
+
+table tr{
+    border: 2px solid #DEE2E6;
+    
+}
+
+table th{
+    border: 2px solid #373B3E;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.table_category {
+    min-height: 282px;
+
+}
+
+.pick div label {
+    margin-bottom: 8px;
+}
+
+.pick div input {
+    width: 163px;
+}
+
+.btnSave {
+    width: 92px;
+}
+
+.btnTrash {
+    padding: 0px 8px;
+    background-color: white;
+    border: 1px  solid #dee2e6;
+    border-left: 0;
     border-radius: 6px;
 }
 
-.btn-play{
-    position: absolute;
-    right: 9px;
-    bottom: 9px;
+.form-control {
+    border-right: 0;
 }
 
-.back-test-container {
-    min-height: 616px;
-}

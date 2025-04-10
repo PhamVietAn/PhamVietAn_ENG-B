@@ -40,8 +40,6 @@ body {
 
 .split-pages .back-page {
     border-radius: 4px 0px 0px 4px;
-    background-color: #e9ecef;
-    color: #dee2e6  ;
 }
 
 .next-page {
@@ -54,6 +52,12 @@ body {
     color: white;
 }
 
+.disabled-page {
+    background-color: #e9ecef !important;
+    color: #dee2e6 !important;
+    cursor: default !important;
+  }
+
 .footer {
     color: white;
     background-color: #333333;
@@ -63,30 +67,36 @@ body {
     background-color: white;
 }
 
-.content table tbody tr:nth-child(odd) {
-    background-color: #f2f2f2;
+.content table th, td{
+    padding: 8px;
 }
 
-.content th{
-    padding: 8px 11px;
-    font-weight: 800;
-}
-
-.content td{
-    padding: 4px 11px;
-}
-
-.content table thead{
+table thead{
     background-color: #212529;
     color: white;
 }
 
-.content table, td{
+td{
     border: 2px solid #DEE2E6;
+    border: 0px 8px;
+    
 }
 
-.content table , th{
+table tr{
+    border: 2px solid #DEE2E6;
+    
+}
+
+table th{
     border: 2px solid #373B3E;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.btn {
+    font-size: 14px;
 }
 
 .col_1 {
@@ -128,4 +138,8 @@ body {
     border: 1px solid #DEE2E6;
     border-radius: 6px;
     padding: 6px 12px;
+}
+
+.productTable {
+    min-height: 460.8px;
 }
