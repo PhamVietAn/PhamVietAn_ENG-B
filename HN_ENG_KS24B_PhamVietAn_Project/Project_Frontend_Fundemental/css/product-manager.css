@@ -24,6 +24,7 @@ body {
 
 .content {
     width: 85%;
+    min-height: calc(100vh - 46.8px - 56px) ;
 }
 
 .add-search-container {
@@ -138,8 +139,4 @@ table tbody tr:nth-child(odd) {
     border: 1px solid #DEE2E6;
     border-radius: 6px;
     padding: 6px 12px;
-}
-
-.productTable {
-    min-height: 460.8px;
 }

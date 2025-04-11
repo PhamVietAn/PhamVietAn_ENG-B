@@ -39,7 +39,7 @@ function renderTestTable(data) {
             <td>${test.questions.length}</td>
             <td>${test.playTime} phút</td>
             <td class="text-center">
-                <button class="btn btn-warning" onclick="window.location.href='../pages/add-edit-test.html?id=${test.id}'">Sửa</button>
+                <button class="btn btn-warning" onclick="window.location.href='../pages/edit-test.html?id=${test.id}'">Sửa</button>
                 <button class="btn btn-danger" data-id="${test.id}" data-bs-toggle="modal" data-bs-target="#delete-test">Xoá</button>
             </td>
         `;

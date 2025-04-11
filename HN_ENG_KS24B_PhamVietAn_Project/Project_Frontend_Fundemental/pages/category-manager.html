@@ -24,7 +24,6 @@
   <div class="content m-auto mt-5">
     <h3 class="mb-4">Quản lý danh mục</h3>
     <button class="btn-Add btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#add-category">Thêm danh mục</button>
-    <div class="table_category">
       <table class="w-100 text-center">
         <thead>
           <tr>
@@ -35,7 +34,6 @@
         </thead>
         <tbody></tbody>
       </table>
-    </div>
 
     <!-- Modal thêm -->
     <div class="modal fade" id="add-category" tabindex="-1">
@@ -94,6 +92,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
           </div>
           <div class="modal-body">
+            <p>Nếu xoá dữ liệu trong danh mục sẽ không thể khôi phục.</p>
             <p>Bạn có chắc chắn muốn xoá không?</p>
           </div>
           <div class="modal-footer">
@@ -104,9 +103,9 @@
       </div>
     </div>
 
-    
+    <div class="split-pages d-flex justify-content-center"></div>
   </div>
-  <div class="split-pages d-flex justify-content-center"></div>
+  
 
   <div class="footer p-3">
     <p class="mb-0 text-center">&copy; 2025 Quiz App. All rights reserved.</p>
